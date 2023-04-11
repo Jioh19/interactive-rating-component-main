@@ -1,0 +1,29 @@
+body {
+    background-color: var(--neutral-Very-Dark-Blue);
+}
+
+main {
+    height: 97vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 20rem;
+    height: 20rem;
+    background-color: var(--neutral-Dark-Blue);
+
+    border-radius: 20px;;
+}
+
+.container {
+    margin: 1rem;
+    border:red solid 2px;
+}
+
+.roundBtn {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: none;
+}
